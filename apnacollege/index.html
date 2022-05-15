@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apna college</title>
+  <!--external css styling-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--<br> is for next line
+       <hr> gives  horizantal lines
+      in h1 inline css is given-->
+  <h1 style="color: blue;">Hello<br> world !&lt;h1&gt;</h1>
+  <hr>
+  <h2>Hello world !</h2>
+  <hr>
+  <h3>Hello world !</h3>
+  <h4>Hello world !</h4>
+  <h5>Hello world !</h5>
+  <h6>Hello world !</h6>
+  
+  <!--styling inside html itsel-->
+  <style>
+    h3{
+      color: brown;
+    }
+  </style>
+  <!--:lorem n  gives random text  of n words
+  b:- bold
+  i:-italics
+  small:- text in small
+  sup:- power text
+  sub:- base text-->
+  <p> <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut exercitationem facilis iusto.</b>.<i> Mollitia suscipit adipisci, doloremque doloribus labore voluptates iusto temporibus commodi? Vel dolor perspiciatis dolorum dignissimos,<small>inventore,</i>i delectus amet saepe incidunt eveniet officiis pariatur. Fugit temporibus sed,</small>  excepturi assumenda blanditiis ducimus magni sapiente sequi iure a, at nemo soluta.10<sup>2</sup><br>log<sub>55</sub></p>
+
+  <!--lists-->
+  <!--order can be of roman letters etc.  using type-->
+  <hr>
+  <h3>Operating systems</h3>
+  <ul>
+    <li>Android</li>
+    <p>Applications</p>
+      <ol type="I">
+        <li>Insta</li>
+        <li>Whatsapp</li>
+        <li>Snapchat</li>
+      </ol>
+    <li>Apple os</li>
+    <li>Windows</li>
+  </ul>
+
+  <!--Tags
+  anchor tags:-->
+  <a href="https://google.com" target="_blank">Google</a>
+  <br>
+  <a href="page2.html">Page 2</a>
+  <br>
+  <a href="https://drive.google.com/drive/u/0/folders/1YwNlTw2MGIo55mLqhH99krDR27i_zEo6" target="_blank">Notes</a>
+  <br>
+  <a href="python tutorial.pdf" target="_blank">python notes</a>
+  <hr>
+  <!--alt is alternative name if not displayed-->
+  <img src="image.jpeg" alt="This is an image"width="300">
+  <hr>
+  <video src="video.mp4" width=400 controls muted loop poster="image.jpeg"></video>
+
+  <!--iframe tag: link another website -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/p_5Hu51STk4" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  <!--frameborder border around video frame-->
+  <iframe src="https://www.apnikaksha.net" frameborder="5" width=300 height=600></iframe>
+
+  <!-- Tables-->
+  <table>
+    <thead class="tablehead">
+      <th>Subject </th>
+      <th>Theory</th>
+      <th>Practicals</th>
+      <th>Grades</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="google.com" target="blank">English</a></td>
+        <td>88</td>
+        <td>-</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>python</td>
+        <td>90</td>
+        <td>35</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>java</td>
+        <td>78</td>
+        <td>28</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>c++</td>
+        <td>77</td>
+        <td>29</td>
+        <td>8</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <!--colspan is for combining columns and rowspan is for combining rows-->
+        <th colspan="4" id="result">Result:Pass</th>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>

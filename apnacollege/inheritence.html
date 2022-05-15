@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inheritance</title>
+  <style>
+    /*color of link in inherited from parent*/
+    /*body
+    {
+      color: blue;
+    }*/
+    .a a{
+      color:inherit;
+    }
+    /*initial color is body's initial color*/
+    .b a{
+      color: initial;
+    }
+    
+    .c a
+    {
+      color: unset;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>default <a href="#">link</a> color</li>
+    <li class="a">inherit <a href="#">link</a> color</li>
+    <li class="b">initial <a href="#">link</a> color</li>
+    <li class="c">unset <a href="#">link</a> color</li>
+  </ul>
+</body>
+</html>

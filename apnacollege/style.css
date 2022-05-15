@@ -1,0 +1,40 @@
+/* . for class
+    # for id*/
+
+.tablehead
+{
+  color: green;
+}
+
+#result
+{
+  color: red;
+}
+
+/*table bordering*/
+table,th,tr,td
+{
+  border: 2px solid black;
+  border-collapse:collapse;
+  padding: 5px;
+  border-spacing: 5px;
+}
+
+th
+{
+  background-color:burlywood;
+}
+td
+{
+  background-color: blueviolet;
+}
+
+tr
+{
+  background-color: seagreen;
+}
+
+thead
+{
+  background-color: cyan;
+}

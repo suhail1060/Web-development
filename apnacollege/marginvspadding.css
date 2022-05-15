@@ -1,0 +1,29 @@
+nav{
+  background-color: black;
+  overflow: hidden;
+}
+
+body nav a{
+  color: white;
+}
+
+a
+{
+  padding: 3%;
+}
+
+a:hover
+{
+  color:tomato;
+}
+
+nav a:visited
+{
+  color: rosybrown;
+}
+
+nav a{
+  text-decoration: none;
+  float: left;
+  text-align: left;
+}
