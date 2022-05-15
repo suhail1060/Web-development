@@ -1,0 +1,159 @@
+.ctop
+{
+    background-color:rgba(86, 18, 205, 0.49);
+    padding: 7px;
+    
+}
+body
+{
+    margin: 0;
+    background-image:url("https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149050921.jpg?t=st=1650095527~exp=1650096127~hmac=c3784bce2abf225b3559e99a2c683a48aef2c97bbbffdc4b4297e2586d7b17f1&w=996");
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-position: center; 
+    
+}
+.name
+{
+    margin-top: 0px;
+    text-align: center;
+}
+
+nav
+{
+    background-color:none;
+    padding-left:16px;
+}
+
+body nav a
+{
+    color:rgba(249, 249, 247, 0.884);
+    text-decoration:none;
+}
+
+body nav a:hover
+{
+    color:rgb(170, 13, 39);
+    
+    font-weight: bolder;
+}
+
+.forms
+{
+    
+    padding: 60px;
+    padding-bottom: 10px;
+}
+
+#name
+{
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 2px solid rgba(57, 5, 5, 0.775);
+}
+
+#email
+{
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 2px solid rgba(57, 5, 5, 0.775);
+}
+
+#sub
+{
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 2px solid rgba(57, 5, 5, 0.775);
+}
+
+#message
+{
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 2px solid rgba(57, 5, 5, 0.775);
+    height: 90px;
+}
+
+#send
+{
+    text-decoration: none;
+    color:black;
+    border-color:2px solid rgb(62, 176, 180);
+}
+
+#send:hover
+{
+    color: green;
+    font-weight: bolder;
+}
+
+#reset:hover
+{
+    color: red;
+    font-weight: bolder;
+}
+
+
+.or
+{
+    text-align: center;
+    
+    margin: 0;
+}
+
+#or
+{
+    margin: 0;
+}
+
+#email1
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+   
+}
+
+#mail1 ,#instagram,#linked1
+{
+    color: black;
+    font-size: 18px;
+   text-decoration: none;
+
+}
+
+#insta,#linked
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-left: 10px;
+}
+
+.rightc
+{
+    float:right;
+   width: 33.33%;
+   padding: 5px;
+   
+}
+
+img
+{
+    border-radius: 80%;
+    height: 150px ;
+    width: 150px;
+    
+}
+
+
+footer
+{
+    background-color: lightseagreen;
+    margin: 0;
+    padding: 7px;
+}
